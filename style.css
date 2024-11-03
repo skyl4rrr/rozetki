@@ -42,13 +42,14 @@ body {
   color: red;
 }
 .nav-text {
-  margin-left: 250px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
 }
 .nav-text a {
   font-size: 19px;
   transition: 300ms;
-  padding: 0px 10px 5px 10px;
-  margin-left: 30px;
+  padding: 5px 20px;
   border-bottom: 1px solid rgb(14, 14, 14);
   cursor: pointer;
 }
@@ -99,13 +100,14 @@ body {
   text-align: center;
 }
 .in-buttons {
+  padding: 30px;
+  align-items: center;
+  justify-content: center;
   display: flex;
-  width: 1000px;
 }
 .in-button {
-  padding: 50px;
+  padding: 20px;
   display: flex;
-  margin-left: 8.5%;
 }
 .in-btn {
   font-family: Montserrat;
