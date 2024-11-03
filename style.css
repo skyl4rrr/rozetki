@@ -190,17 +190,19 @@ footer * {
 footer h3 {
   margin-left: 80%;
 }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 791px) {
   nav {
     display: inline-block;
-    height: 55px;
+    height: 60px;
   }
   .nav-text {
     padding: 4px 0px;
     display: flex;
+    justify-content: space-around;
   }
   .nav-text a {
-    font-size: 9px;
+    display: flex;
+    font-size: 12px;
   }
   .logo {
     padding: 0;
