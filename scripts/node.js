@@ -1,14 +1,14 @@
 $(".whatis").click(function () {
-  $("html, body").animate({ scrollTop: 265 }, 800);
+  $("html, body").animate({ scrollTop: 245 }, 800);
 });
 $(".howuse").click(function () {
-  $("html, body").animate({ scrollTop: 935 }, 800);
+  $("html, body").animate({ scrollTop: 1065 }, 800);
 });
 $(".in").click(function () {
-  $("html, body").animate({ scrollTop: 1640 }, 800);
+  $("html, body").animate({ scrollTop: 1767 }, 800);
 });
 $(".history").click(function () {
-  $("html, body").animate({ scrollTop: 2150 }, 800);
+  $("html, body").animate({ scrollTop: 2215 }, 800);
 });
 $(".corpus").click(function () {
   $(".in-btn-p").text(
