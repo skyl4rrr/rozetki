@@ -154,9 +154,6 @@ body {
   width: 700px;
   padding-bottom: 40px;
 }
-.info-box-two {
-  padding: 60px 0px;
-}
 .history-img {
   margin-left: 25.9%;
   position: absolute;
@@ -179,7 +176,7 @@ body {
   transform: rotate(0.25turn);
 }
 .history-line {
-  margin-top: 30px;
+  margin-top: 100px;
 }
 footer {
   padding: 50px;
