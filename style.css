@@ -154,11 +154,12 @@ body {
   width: 700px;
   padding-bottom: 40px;
 }
-.history-img {
-  margin-left: 25.9%;
+.history-img,
+.hist-img {
   position: absolute;
-  width: 1000px;
+  width: 100%;
   z-index: 1;
+  margin-bottom: 750px;
 }
 .info-box-symbol-two,
 .info-box-symbol-one {
@@ -282,9 +283,10 @@ footer * {
   footer {
     padding: 20px;
   }
+  .hist-img {
+    width: 97%;
+    margin-top: 500px;
+  }
 }
 @media screen and (max-width: 1200px) {
-  .history-img {
-    width: 290px;
-  }
 }
